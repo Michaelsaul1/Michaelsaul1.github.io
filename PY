@@ -1,0 +1,12 @@
+fruits = ["apple", "orange", "banana", "pear"]
+index = 0
+for fruit in fruits:
+  str = ''
+  for l in fruit:
+    if l == 'n':
+      str += 'N'
+    else:
+      str += l
+  fruits[index] = str
+  index += 1
+print(fruits)
